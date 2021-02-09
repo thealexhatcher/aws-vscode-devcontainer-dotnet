@@ -1,0 +1,10 @@
+{
+	"name": "C# (.NET Core)",
+	"dockerFile": "Dockerfile",
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"remoteUser": "vscode",
+	"postCreateCommand": "dotnet restore",
+	"extensions": ["ms-dotnettools.csharp"]
+}
